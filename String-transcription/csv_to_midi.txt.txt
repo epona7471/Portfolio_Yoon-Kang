@@ -1,0 +1,24 @@
+import sys
+import csv
+import pretty_midi
+
+csv_filename = sys.argv[1]
+
+file = pretty_midi.PrettyMIDI()
+
+instruments = {}
+
+with open(csv_filename, newline='') as csvfile:
+    reader = csv.reader(csvfile)
+    next(reader, None)  # skip the headers
+    for row in reader:
+        instrument_num = int(row[2])
+        instrument = instruments.get(instrument_num, pretty_midi.Instrument(program=instrument_num))
+        note = pretty_midi.Note(velocity=60, pitch=int(row[3]), start=int(row[0])/44100, end=int(row[1])/44100)
+        instrument.notes.append(note)
+        instruments[instrument_num] = instrument
+
+for instrument in instruments.values():
+    file.instruments.append(instrument)
+
+file.write(csv_filename.replace("csv", "mid"))
