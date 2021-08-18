@@ -3,15 +3,13 @@
 
 안녕하세요. section4 deep learning 프로젝트 폴더입니다.
 
-이번 과제는 multi-input 딥러닝 아키텍처를 사용하였으며, 
-모델.h5 파일, 중간 x_train 저장 파일, 이미지 파일 모두 100mb이상의 고용량 파일이므로 
-하기 google drive 링크를 첨부하오니 모델 구동에 관심있으신 분들은 다운받으셔서 사용부탁드립니다.
+이번 과제는 multi-input 딥러닝 아키텍처를 사용한 영화추천 시스템이며,
+pre-trained된 모델을 사용하실 분들은 하기 파일링크들을 참조부탁드립니다.
 코딩 내부의 디렉토리는 제가 쓰는 구글 드라이브 기준으로 작성되어있으니, 용도 것 변경 부탁드립니다.
 (코랩 기준으로 작성된 requirements로 pip 설치시 시간에 좀 오래 걸릴 수 있습니다.)
 
 0. imdb movies.csv 데이터
    - https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset
-   - 
 0-1. Glove word embedding corpus
    - 파일이름 : glove.6B.100d
    - https://nlp.stanford.edu/projects/glove/
@@ -28,6 +26,11 @@
   - https://drive.google.com/drive/folders/1ragJ5lClLNOoibXZBC4lNJ-i8eSM3nir?usp=sharing
     (파일이 한 24000개 정도 있으니 조심해서 접근부탁드립니다.)
     
+    
+4. 모델 개요
+
+![image](https://user-images.githubusercontent.com/13134929/129921099-d581fed3-df12-4bf3-a328-be7bbee31326.png)
+
 -Multi input model 및 LSTM 관련 reference 링크
 
 1. https://towardsdatascience.com/deep-multi-input-models-transfer-learning-for-image-and-word-tag-recognition-7ae0462253dc
