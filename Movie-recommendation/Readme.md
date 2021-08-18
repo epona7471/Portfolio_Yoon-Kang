@@ -29,7 +29,7 @@ pre-trained된 모델을 사용하실 분들은 하기 파일링크들을 참조
     
 4. 모델 개요
 
-![image](https://user-images.githubusercontent.com/13134929/129921099-d581fed3-df12-4bf3-a328-be7bbee31326.png)
+![image](https://user-images.githubusercontent.com/13134929/129929771-f396e0c6-22fe-4aa0-bb96-1cbf0dd30ed7.png)
 
 -Multi input model 및 LSTM 관련 reference 링크
 
