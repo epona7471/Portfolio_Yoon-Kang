@@ -11,16 +11,16 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 2) Timit speech dataset (for the details : https://huggingface.co/datasets/timit_asr)   
 You can find details from data-preprocess to training in the file **'Fine_tuning_Wav2Vec2_for_English_ASR_TIMIT.ipynb'**
 ``` 
-DatasetDict({
-    train: Dataset({
-        features: ['file', 'text', 'phonetic_detail', 'word_detail', 'dialect_region', 'sentence_type', 'speaker_id', 'id'],
-        num_rows: 4620
-    })
-    test: Dataset({
-        features: ['file', 'text', 'phonetic_detail', 'word_detail', 'dialect_region', 'sentence_type', 'speaker_id', 'id'],
-        num_rows: 1680
-    })
-})
+   DatasetDict({
+       train: Dataset({
+           features: ['file', 'text', 'phonetic_detail', 'word_detail', 'dialect_region', 'sentence_type', 'speaker_id', 'id'],
+           num_rows: 4620
+       })
+       test: Dataset({
+           features: ['file', 'text', 'phonetic_detail', 'word_detail', 'dialect_region', 'sentence_type', 'speaker_id', 'id'],
+           num_rows: 1680
+       })
+   })
 ```
 
 ## 2. Training results
