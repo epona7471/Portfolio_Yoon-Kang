@@ -5,10 +5,10 @@
 ## 1. Dataset
 
 1)  Korean-accented English speech dataset
-This Korean-english speech dataset is from https://aiopen.etri.re.kr/(Site's language only supports Korean), open data API service by ETRI(Electronics and Telecommunications Research Institute) from Korea. This datase contains .pcm recording files of each 50 Korean native people reading 100 english sentences, and its matching transcriptions.
+This Korean-english speech dataset is from https://aiopen.etri.re.kr/(Site's language only supports Korean), open data API service by ETRI(Electronics and Telecommunications Research Institute) from Korea. This datase contains .pcm recording files of each 50 Korean native people reading 100 english sentences, and its matching transcriptions.   
 You can find details from data-preprocess to training in the file **'Fine_tuning_Wav2Vec2_for_English_ASR_Korean-English.ipynb'**
 
-2) Timit speech dataset (for the details : https://huggingface.co/datasets/timit_asr)
+2) Timit speech dataset (for the details : https://huggingface.co/datasets/timit_asr)   
 You can find details from data-preprocess to training in the file **'Fine_tuning_Wav2Vec2_for_English_ASR_TIMIT.ipynb'**
 ``` 
 DatasetDict({
