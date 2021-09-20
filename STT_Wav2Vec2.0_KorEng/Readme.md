@@ -26,4 +26,11 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 ## 2. Training results
 
 1) Model description
-a. base : Facebook's Wav2Vec2 base-model
+- base : Facebook's Wav2Vec2 base-model
+
+|(All models have same base)|TIMIT Dataset(WER)|Korean-English Dataset(WER)|
+|------|---|---|
+|Korean-English|0.428|0.16|
+|TIMIT|0.186|0.528|
+|960h-lv60|0.115|0.368|
+|TIMIT + Korean-English|0.285|0.151|
