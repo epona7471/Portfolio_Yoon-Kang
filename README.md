@@ -1,5 +1,16 @@
 # Yoon Kang's Portfolio
 
+## 1. ASR(Automatic Speech Recognition) model for Korean accented English using Wav2vec2.0
+(URL)
+### Directory Folder : Wav2Vec2.0_KorEng 
+Fine-tuning Wav2vec2.0 basemodel with Huggingface Transformers Wav2vec2 library.
+---
+## 1. ASR(Automatic Speech Recognition) model for Korean accented English using Wav2vec2.0
+(URL)
+### Directory Folder : Wav2Vec2.0_KorEng 
+Fine-tuning Wav2vec2.0 basemodel with Huggingface Transformers Wav2vec2 library.
+
+
 ## 1. 전이학습(Transfer-learning)을 이용한 현악기 transcription
 (https://github.com/epona7471/Portfolio_Yoon-Kang/tree/main/String-transcription)
 ### 폴더 이름 : String-transcription
