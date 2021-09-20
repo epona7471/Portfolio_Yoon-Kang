@@ -7,7 +7,7 @@ Using a novel contrastive pretraining objective, Wav2Vec2 learns powerful speech
 
 1. Timit dataset (https://huggingface.co/datasets/timit_asr)
 
-'''
+```
 DatasetDict({
     train: Dataset({
         features: ['file', 'text', 'phonetic_detail', 'word_detail', 'dialect_region', 'sentence_type', 'speaker_id', 'id'],
@@ -18,4 +18,4 @@ DatasetDict({
         num_rows: 1680
     })
 })
-'''
+```
