@@ -9,7 +9,7 @@ This Korean-english speech dataset is from https://aiopen.etri.re.kr/(Site's lan
 You can find details from data-preprocess to training in the file **'Fine_tuning_Wav2Vec2_for_English_ASR_Korean-English.ipynb'**
 
 2) Timit speech dataset (for the details : https://huggingface.co/datasets/timit_asr)
-
+You can find details from data-preprocess to training in the file **'Fine_tuning_Wav2Vec2_for_English_ASR_TIMIT.ipynb'**
 ``` 
 DatasetDict({
     train: Dataset({
