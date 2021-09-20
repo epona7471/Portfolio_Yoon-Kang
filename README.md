@@ -2,8 +2,8 @@
 
 ## 1. ASR(Automatic Speech Recognition) model for Korean accented English using Wav2vec2.0
 (URL)
-### Project Folder : Wav2Vec2.0_KorEng   
-Fine-tuning Wav2vec2.0 basemodel with Huggingface Transformers Wav2vec2 library.
+### - Project Folder : Wav2Vec2.0_KorEng   
+ - Fine-tuning Wav2vec2.0 basemodel with Huggingface Transformers Wav2vec2 library.
 
 ---
 
