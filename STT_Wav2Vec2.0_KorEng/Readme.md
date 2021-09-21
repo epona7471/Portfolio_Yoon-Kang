@@ -1,3 +1,6 @@
+ASR(Automatic Speech Recognition) STT model for Korean accented English using Wav2vec2.0
+=============
+
 ![image](https://user-images.githubusercontent.com/13134929/134042337-f0d85334-a24e-4595-88cb-1377a35433d0.png)
 
   This Model follows the template of hugging face's 'Fine-Tune Wav2Vec2 for English ASR with 🤗 Transformers' tutorial'([Link](https://huggingface.co/blog/fine-tune-wav2vec2-english)). In this case, this application is specialized in Speech recognition of Korean-accented English. Below comparisons in this page proves that same Wav2vec2.0 model trained by different accent datasets, resulting in its own unique performance. 
