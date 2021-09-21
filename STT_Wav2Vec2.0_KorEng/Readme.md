@@ -43,5 +43,9 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 |960h-lv60|**0.115**|0.368|
 |TIMIT + Korean-English|0.285|**0.151**|
 
+3) prediction samples
+![image](https://user-images.githubusercontent.com/13134929/134122600-492036de-26e4-4f55-82fe-f20b2174bbfd.png)
+
+
 ## 3. Conclusion
   This model is a little bit behind from Wav2Vec2.0's SotA performance, since the model does not include LM(Language Model), and only functioning as character-based encoding-decoding model. However, regardless of the model's general performance, English speeches have some distinct attributes based on speaker's original accent, those should be considered when training and building ASR system.  
