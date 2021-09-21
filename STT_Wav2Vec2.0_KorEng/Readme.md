@@ -29,7 +29,7 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 ## 2. Training results
 
 1) Model description
-- base : Facebook's Wav2Vec2 base-model
+- base : Facebook's Wav2Vec2 base-model (https://huggingface.co/facebook/wav2vec2-base)
 - Korean-English : Base + fine-tuned at Korean-English Dataset(approximately 5 hours)
 - TIMIT : Base + fine-tuned at TIMIT Dataset(approximately 5 hours)
 - 960h-lv60 :The large model pretrained and fine-tuned on 960 hours of Libri-Light and Librispeech on 16kHz sampled speech audio.
