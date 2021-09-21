@@ -31,9 +31,14 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 - TIMIT : Base + fine-tuned at TIMIT Dataset
 - 960h-lv60 :The large model pretrained and fine-tuned on 960 hours of Libri-Light and Librispeech on 16kHz sampled speech audio.
 
-|(All models have same base)|TIMIT Dataset(WER)|Korean-English Dataset(WER)|
+2) Model performance
+
+|(All models have same base)|TIMIT test dataset(WER)|Korean-English test dataset(WER)|
 |------|---|---|
 |Korean-English|0.428|0.16|
 |TIMIT|0.186|0.528|
 |960h-lv60|0.115|0.368|
 |TIMIT + Korean-English|0.285|0.151|
+
+## 3. Conclusion
+  This model is a little bit behind from Wav2Vec2.0's SotA performance, since the model does not include LM(Language Model), and only functioning as character-based encoding-decoding model. However, regardless of the model's general performance, English speeches have some distinct attributes based on speaker's original accent, those should be considered when building ASR system.  
