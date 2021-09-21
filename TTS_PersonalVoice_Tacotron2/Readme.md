@@ -14,16 +14,11 @@ This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners
 
 ## 2. Training & Synthesis 
 
-1) Model training (Follow instructions at Tacotron2_Training.ipynb)
+1) Model training (Follow instructions at Tacotron2_Training.ipynb)   
 ![image](https://user-images.githubusercontent.com/13134929/134140263-33fd0890-d2e8-450e-8977-32a79c3c5fba.png)
 
-- base : Facebook's Wav2Vec2 base-model (https://huggingface.co/facebook/wav2vec2-base)
-- Korean-English : Base + fine-tuned at Korean-English Dataset(approximately 5 hours)
-- TIMIT : Base + fine-tuned at TIMIT Dataset(approximately 5 hours)
-- 960h-lv60 :The large model pretrained and fine-tuned on 960 hours of Libri-Light and Librispeech on 16kHz sampled speech audio.
-
-2) Synthesis (Follow instructions at Tacotron2_Synthesis.ipynb)
+2) Synthesis (Follow instructions at Tacotron2_Synthesis.ipynb)   
 ![image](https://user-images.githubusercontent.com/13134929/134140641-89b6aab9-803b-48a8-b487-5e020472e8eb.png)
 
 ## 3. Further study
-  Recodrdingmethods are still on progress to level the quality of raw data. 
+  Recording methods are still on progress to level the quality of raw data. 
