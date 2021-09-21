@@ -1,7 +1,7 @@
 # Yoon Kang's Portfolio
 
 ## 1. ASR(Automatic Speech Recognition) STT model for Korean accented English using Wav2vec2.0
-(URL)
+(https://github.com/epona7471/Portfolio_Yoon-Kang/blob/main/STT_Wav2Vec2.0_KorEng/)
 ### - Project Folder : STT_Wav2Vec2.0_KorEng   
  - Fine-tuning Wav2vec2.0 basemodel with Huggingface Transformers Wav2vec2 library.
 
