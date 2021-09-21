@@ -14,10 +14,12 @@ This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners
 
 ## 2. Training & Synthesis 
 
-1) Model training (Follow instructions at Tacotron2_Training.ipynb)   
+1) Model training (Follow instructions at Tacotron2_Training.ipynb)  
+ 
 ![image](https://user-images.githubusercontent.com/13134929/134140263-33fd0890-d2e8-450e-8977-32a79c3c5fba.png)
 
 2) Synthesis (Follow instructions at Tacotron2_Synthesis.ipynb)   
+
 ![image](https://user-images.githubusercontent.com/13134929/134140641-89b6aab9-803b-48a8-b487-5e020472e8eb.png)
 
 ## 3. Further study
