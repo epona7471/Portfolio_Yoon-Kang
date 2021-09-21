@@ -27,6 +27,9 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 
 1) Model description
 - base : Facebook's Wav2Vec2 base-model
+- Korean-English : Base + fine-tuned at Korean-English Dataset
+- TIMIT : Base + fine-tuned at TIMIT Dataset
+- 960h-lv60 :The large model pretrained and fine-tuned on 960 hours of Libri-Light and Librispeech on 16kHz sampled speech audio.
 
 |(All models have same base)|TIMIT Dataset(WER)|Korean-English Dataset(WER)|
 |------|---|---|
