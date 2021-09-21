@@ -1,4 +1,4 @@
-ASR(Automatic Speech Recognition) STT model for Korean accented English using Wav2vec2.0
+ASR(Automatic Speech Recognition) STT model for Korean-accented English using Wav2vec2.0
 =============
 
 ![image](https://user-images.githubusercontent.com/13134929/134042337-f0d85334-a24e-4595-88cb-1377a35433d0.png)
@@ -7,7 +7,7 @@ ASR(Automatic Speech Recognition) STT model for Korean accented English using Wa
 
 ## 1. Dataset
 
-1)  Korean-accented English speech dataset
+1)  Korean-accented English speech dataset   
 This Korean-english speech dataset is from https://aiopen.etri.re.kr/ (site's language only supports Korean), open data API service by ETRI(Electronics and Telecommunications Research Institute) from Korea. This datase contains .pcm recording files of 50 Korean native people reading 100 english sentences each, and its matching script.   
 You can find details from data-preprocess to training in the file **'Fine_tuning_Wav2Vec2_for_English_ASR_Korean-English.ipynb'**
 
