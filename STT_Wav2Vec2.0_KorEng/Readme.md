@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/13134929/134042337-f0d85334-a24e-4595-88cb-1377a35433d0.png)
 
-  This Model follows the template of hugging face's 'Fine-Tune Wav2Vec2 for English ASR with 🤗 Transformers' tutorial'[Link](https://huggingface.co/blog/fine-tune-wav2vec2-english). In this case, this application is specialized in Speech recognition of Korean-accented English. Below comparisons in this page proves that models each trained by datasets with different accents, resulting in its own unique performance. 
+  This Model follows the template of hugging face's 'Fine-Tune Wav2Vec2 for English ASR with 🤗 Transformers' tutorial'([Link](https://huggingface.co/blog/fine-tune-wav2vec2-english)). In this case, this application is specialized in Speech recognition of Korean-accented English. Below comparisons in this page proves that models each trained by datasets with different accents, resulting in its own unique performance. 
 
 ## 1. Dataset
 
@@ -35,10 +35,10 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 
 |(All models have same base)|TIMIT test dataset(WER)|Korean-English test dataset(WER)|
 |------|---|---|
-|Korean-English|0.428|0.16|
-|TIMIT|0.186|0.528|
-|960h-lv60|0.115|0.368|
-|TIMIT + Korean-English|0.285|0.151|
+|Korean-English|0.428|**0.16**|
+|TIMIT|**0.186**|0.528|
+|960h-lv60|**0.115**|0.368|
+|TIMIT + Korean-English|0.285|**0.151**|
 
 ## 3. Conclusion
-  This model is a little bit behind from Wav2Vec2.0's SotA performance, since the model does not include LM(Language Model), and only functioning as character-based encoding-decoding model. However, regardless of the model's general performance, English speeches have some distinct attributes based on speaker's original accent, those should be considered when building ASR system.  
+  This model is a little bit behind from Wav2Vec2.0's SotA performance, since the model does not include LM(Language Model), and only functioning as character-based encoding-decoding model. However, regardless of the model's general performance, English speeches have some distinct attributes based on speaker's original accent, those should be considered when training and building ASR system.  
