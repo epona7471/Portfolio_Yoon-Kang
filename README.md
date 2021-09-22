@@ -4,14 +4,16 @@
 (https://github.com/epona7471/Portfolio_Yoon-Kang/blob/main/STT_Wav2Vec2.0_KorEng/)
 ### - Project Folder : STT_Wav2Vec2.0_KorEng   
  - Fine-tuning Wav2vec2.0 basemodel with Huggingface Transformers Wav2vec2 library.
-
+ - Access and preprocess Korean-english speech dataset
+ - Evaluation study with other models
 ---
 
 ## 2. End-to-End TTS personal voice generator using Nvidia Tacotron2
 (https://github.com/epona7471/Portfolio_Yoon-Kang/tree/main/TTS_PersonalVoice_Tacotron2)
 ### - Project Folder : TTS_Personal_voice_Tacotron2 
  - End-to-End step with personal voice recording, model training, voice synthesis and evaluation
-
+ - Fine-tuning pre-trained Nvidia Tacotron2 voice generation model
+ - Voice synthesize and evaluation
 ---
 
 ## 3. Movie recommendation system using Multimodal input deep learning model
