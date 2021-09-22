@@ -9,7 +9,7 @@
 
 ## 2. End-to-End TTS personal voice generator using Nvidia Tacotron2
 (https://github.com/epona7471/Portfolio_Yoon-Kang/tree/main/TTS_PersonalVoice_Tacotron2)
-### - Directory Folder : TTS_Personal_voice_Tacotron2 
+### - Project Folder : TTS_Personal_voice_Tacotron2 
  - End-to-End step with personal voice recording, model training, voice synthesis and evaluation
 
 ---
