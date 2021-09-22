@@ -23,4 +23,4 @@ This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners
    ![image](https://user-images.githubusercontent.com/13134929/134140641-89b6aab9-803b-48a8-b487-5e020472e8eb.png)
 
 ## 3. Further study
-  Recording methods are still on progress to level the quality of raw data. 
+  New recording methods are being considered to improve the quality of raw data. The result will be compared to voice cloning project.
