@@ -1,7 +1,7 @@
 End-to-End TTS personal voice generator using Nvidia Tacotron2
 =============
 
-This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners tutorial'([Link](https://www.youtube.com/watch?v=gVqSEIr2PD4)). This project comes with extra personal-voice recording part. For more details at 'Your_Voice_recorder.ipynb'
+This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners tutorial'([Link](https://www.youtube.com/watch?v=gVqSEIr2PD4)). This project comes with extra personal-voice recording part. For more details at '[Your_Voice_recorder.ipynb](https://github.com/epona7471/Portfolio_Yoon-Kang/blob/main/TTS_PersonalVoice_Tacotron2/Your_Voice_recorder.ipynb)'
 
 ## 1. Dataset
 
@@ -18,7 +18,7 @@ This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners
  
    ![image](https://user-images.githubusercontent.com/13134929/134140263-33fd0890-d2e8-450e-8977-32a79c3c5fba.png)
 
-2) Synthesis (Follow instructions at Tacotron2_Synthesis.ipynb)   
+2) Synthesis (Follow instructions at [Tacotron2_Synthesis.ipynb](https://github.com/epona7471/Portfolio_Yoon-Kang/blob/main/TTS_PersonalVoice_Tacotron2/Tacotron2_Synthesis.ipynb))   
 
    ![image](https://user-images.githubusercontent.com/13134929/134140641-89b6aab9-803b-48a8-b487-5e020472e8eb.png)
 
