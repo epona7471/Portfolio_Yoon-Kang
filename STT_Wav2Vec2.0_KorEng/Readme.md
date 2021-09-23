@@ -36,12 +36,12 @@ You can find details from data-preprocess to training in the file **'Fine_tuning
 
 2) Model performance
 
-  |(All models have same base)|TIMIT test dataset(WER)|Korean-English test dataset(WER)|
-  |------|---|---|
-  |Korean-English|0.428|**0.16**|
-  |TIMIT|**0.186**|0.528|
-  |960h-lv60|**0.115**|0.368|
-  |TIMIT + Korean-English|0.285|**0.151**|
+    |(All models have same base)|TIMIT test dataset(WER)|Korean-English test dataset(WER)|
+    |------|---|---|
+    |Korean-English|0.428|**0.16**|
+    |TIMIT|**0.186**|0.528|
+    |960h-lv60|**0.115**|0.368|
+    |TIMIT + Korean-English|0.285|**0.151**|
 
 3) prediction samples
 ![image](https://user-images.githubusercontent.com/13134929/134122600-492036de-26e4-4f55-82fe-f20b2174bbfd.png)
