@@ -5,7 +5,7 @@ This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners
 
 ## 1. Dataset
 
-- How to record a your personal speech data
+- How to record your personal speech data
    1. Open 'Your_Voice_recorder.ipynb' on Google Colab 
    2. Set the value of variable 'count' which sets the size of the speech dataset
    3. Before recording every sentence, there is 3 second stanby time. While then, please check the following script and prepare for recording.   
