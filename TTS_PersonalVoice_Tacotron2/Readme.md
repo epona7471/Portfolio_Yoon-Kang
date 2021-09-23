@@ -14,7 +14,7 @@ This Model follows the tutorial of 'Voice Deepfake with Tacotron 2 for beginners
 
 ## 2. Training & Synthesis 
 
-1) Model training (Follow instructions at Tacotron2_Training.ipynb)  
+1) Model training (Follow instructions at [Tacotron2_Training.ipynb](https://github.com/epona7471/Portfolio_Yoon-Kang/blob/main/TTS_PersonalVoice_Tacotron2/Tacotron2_Training.ipynb))  
  
    ![image](https://user-images.githubusercontent.com/13134929/134140263-33fd0890-d2e8-450e-8977-32a79c3c5fba.png)
 
